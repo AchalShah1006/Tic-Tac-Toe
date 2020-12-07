@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    height: 56px;
+    background-color: #0f0f0f;
+}
+#logoName{
+    margin: auto;
+    vertical-align: middle;
+    color: white;
+    font-size: 26px;
+    font-weight: bolder;
+}
+.pointTable{
+    text-align: center;
+}
+h2{
+    margin: 10px auto;
+}
+.player{
+    display: inline-block;
+    margin: 1rem;
+    font-size: 24px;
+}
+
+.round{
+    margin: 0px auto 5px auto;
+    font-size: 18px;
+    color: rgb(85, 33, 85);
+    font-size: 20px;
+}
+.p1{
+    color: red;
+    vertical-align: -webkit-baseline-middle;
+}
+.p2{
+    color: blue;
+    vertical-align: -webkit-baseline-middle;
+}
+.card{
+    margin: auto;
+    height: 300px;
+}
+.board{
+    margin: auto;
+    border-spacing: 0px;
+    width: 70%;
+    height: 300px;
+}
+.row{
+    min-height: 100px;
+    margin: 0 auto;
+    min-width: 50px;
+    width: 33.33%;
+    float: left;
+    font-size: 48px;
+}
+@media(min-width: 768px) {
+    .board{
+        width: 50%;
+    }
+}
+footer{
+    display: block;
+    text-align: center;
+}
+.alertBox{
+    margin-top: 1rem;
+    color: orange;
+    font-size: 24px;
+    font-weight: bolder; 
+}
+.reset{
+    font-size: 14px;
+    padding: 3px 7px;
+    margin: 0px auto 10px auto;
+    color: black;
+}
